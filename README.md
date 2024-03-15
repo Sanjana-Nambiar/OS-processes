@@ -15,14 +15,14 @@ This project implements a distributed approach to generate prime numbers within 
 
 The project includes a `Makefile` for easy compilation. Use the following command to compile all components:
 
- ''' make'''
+ ``` make ```
 
 
 ## Usage
 
 After compilation, run the program with the following syntax:
 
- ''' ./primes -l LowerBound -u UpperBound -[e|r] -n NumOfNodes'''
+ ``` ./primes -l LowerBound -u UpperBound -[e|r] -n NumOfNodes ```
 
 
 - `-l LowerBound`: The lower bound of the range within which to find prime numbers.
@@ -32,7 +32,7 @@ After compilation, run the program with the following syntax:
 
 ## Example
 
- ''' ./primes -l 1 -u 100 -e -n 4'''
+ ``` ./primes -l 1 -u 100 -e -n 4 ```
 
 
 This command will find prime numbers between 1 and 100, distributing the workload evenly across 4 worker nodes.
